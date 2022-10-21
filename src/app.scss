@@ -1,0 +1,15 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+
+  max-width: 600px;
+  margin: 0 auto;
+
+  .toggle {
+    margin-right: auto;
+    margin-bottom: 30px;
+    font-weight: bold;
+    padding: 5px 10px;
+  }
+}
