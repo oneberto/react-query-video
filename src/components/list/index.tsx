@@ -27,7 +27,7 @@ let articles: ArticleType[] = [
 
 const ListArticles = () => {
   return (
-    <div>
+    <div style={{ border: "1px solid #ccc" }}>
       {articles?.map((article) => (
         <Article key={article.id} {...article} />
       ))}

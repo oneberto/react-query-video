@@ -1,0 +1,14 @@
+.total {
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 25px;
+  text-align: center;
+
+  p {
+    margin: 0;
+  }
+
+  > strong {
+    font-size: 1.4rem;
+  }
+}

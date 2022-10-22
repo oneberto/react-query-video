@@ -1,8 +1,12 @@
 .article {
   display: flex;
   margin-bottom: 15px;
-  border-bottom: 1px solid #ccc;
   padding: 20px;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+  }
 
   input {
     border: 1px solid #ccc;
