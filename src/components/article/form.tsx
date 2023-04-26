@@ -1,13 +1,17 @@
 import React, { useState } from "react";
 import { ArticleType } from "../../types/article";
 
-type Props = ArticleType & { onClose(): void };
+type Props = ArticleType & { 
+  onClose(): void; 
+  onSubmit(body: ArticleType): void; };
 
-const ArticleForm = ({ onClose, ...initialState }: Props) => {
+const ArticleForm = ({ onClose, onSubmit, ...initialState }: Props) => {
   const [state, setState] = useState<ArticleType>(initialState);
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+
+    onSubmit(state);
   };
 
   return (
