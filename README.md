@@ -1,8 +1,8 @@
 # Welcome to my React Query project!
 
-Este é o projeto inicial que foi utilizado no vídeo https://www.youtube.com/watch?v=XXX
+Este é o projeto inicial que foi utilizado no vídeo https://www.youtube.com/watch?v=BIQD-pZRPKE
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/XXX/0.jpg)](https://www.youtube.com/watch?v=XXX)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/BIQD-pZRPKE/0.jpg)](https://www.youtube.com/watch?v=BIQD-pZRPKE)
 
 ## Como clonar o projeto
 
